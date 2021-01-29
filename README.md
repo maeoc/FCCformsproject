@@ -1,0 +1,1 @@
+The idea here is to build a survey form. I've never built a survey form before, but I'm super excited to try. I'll be using mostly HTML and CSS to complete the form, as I'm just a baby-beginner in javascript. While I'd love to try my hand at a survey with javascript when I'm more skilled, right now I am my goal is to build my HTML and CSS skills and my comfort level with coding. 
