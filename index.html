@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1 id="title"> Hannah's Survey</h1>
+    
+    <p id="description"> This is a survey which has many questions.</p>
+
+    <form id="survey-form">
+        <!-- Name, email (validate email format, with error if wrong), 
+        and age (should be validating is # and min max 0 to 125 with error if wrong) fields-->
+        <p id="name-label">Please tell me your name.</p>
+        <input type="text" id="name" placeholder="Please tell me your name"></input>
+        <p id="email-label">Please give up your email.</p>
+        <input type="email" id="email" placeholder="Please give me your email address"></input>
+        <p id="number-label"> How old are you?</p>
+        <input type="number" id="number" placeholder="Please tell me how old you are"></input>
+
+        <!-- here i need a dropdown field, a multi-select radio field using name attributes, 
+        checkboxes with values, and a textarea for user comments-->
+
+        <p>Which is your favorite?</p>
+        <select multiple="false" id="dropdown" auto-expand="true">
+            <option value="Dancing with the devil in the pale moonlight">Dancing with the devil in the pale moonlight</option>
+            <option value="I am Jack's complete lack of surprise">I am Jack's complete lack of surprise.</option>
+            <option value="Say hi to your Mom for me."> Say hi to your mom for me.</option>
+            <option value="Blue-green!">Blue-green!</option>
+            <option value="You don't talk to Mr. Bourke that way!">You don't talk to Mr. Bourke that way!</option>
+        </select>
+            
+
+        <p>Pick one or more.</p>
+        <input type="radio" multiple="true" id="radiooption">
+
+        <p> Check off some boxes, you hoe.</p>
+        <input type="checkbox" multiple="true" id="checkbox">
+
+        <p> Please tell me all of your hopes and dreams.</p>
+        <input type="textarea" maxlength="1000" id="textarea">
+        
+        <!-- below here we have a button in which the user will click and things will be 'submitted'-->
+
+        <p>Click here to submit your survey.</p>
+        <button>submit</button>
+
+
+    </form>
+</body>    
+</html>
