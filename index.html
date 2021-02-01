@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-    <h1 id="title"> Hannah's Survey</h1>
+    <h1 id="title"> Ridiculous Survey</h1>
     
     <p id="description"> This is a survey which has many questions.</p>
 
     <form id="survey-form">
         <!-- Name, email (validate email format, with error if wrong), 
         and age (should be validating is # and min max 0 to 125 with error if wrong) fields-->
-        <p id="name-label">Please tell me your name.</p>
-        <input type="text" id="name" placeholder="Please tell me your name"></input>
-        <p id="email-label">Please give up your email.</p>
-        <input type="email" id="email" placeholder="Please give me your email address"></input>
-        <p id="number-label"> How old are you?</p>
-        <input type="number" id="number" placeholder="Please tell me how old you are"></input>
-
+        <label for="name">Please tell me your name.</label>
+        <input type="text" id="name" name="name" placeholder="Your name here" required="true"></input>
+        <br>
+        <label for="email">Please give me your email.</label>
+        <input type="email" name="email" id="email" placeholder="yourname@email.com" required="true"></input>
+        <br>
+        <label for="number" id="number"> How old are you?</label>
+        <input type="number" name="number" id="number" placeholder="Please tell me how old you are" required="true"></input>
+        <br>
         <!-- here i need a dropdown field, a multi-select radio field using name attributes, 
         checkboxes with values, and a textarea for user comments-->
 
-        <p>Which is your favorite?</p>
-        <select multiple="false" id="dropdown" auto-expand="true">
+        <label for="dropdown">Which is your favorite?</label>   
+        <br>
+        <select multiple="false" name="dropdown" id="dropdown">
             <option value="Dancing with the devil in the pale moonlight">Dancing with the devil in the pale moonlight</option>
             <option value="I am Jack's complete lack of surprise">I am Jack's complete lack of surprise.</option>
             <option value="Say hi to your Mom for me."> Say hi to your mom for me.</option>
             <option value="Blue-green!">Blue-green!</option>
             <option value="You don't talk to Mr. Bourke that way!">You don't talk to Mr. Bourke that way!</option>
         </select>
-            
 
         <p>Pick one or more.</p>
-        <input type="radio" multiple="true" id="radiooption">
+        <input type="radio" multiple="true" id="radiooption"> 
+            <option value="Puppies">Puppies</option>
+            <option value="Rainbows">Rainbows</option>
+            <option value="Lollipops">Lollipops</option>
+        </input>
 
         <p> Check off some boxes, you hoe.</p>
         <input type="checkbox" multiple="true" id="checkbox">
