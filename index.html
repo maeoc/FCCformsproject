@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <h1 id="title"> Ridiculous Survey</h1>
     
@@ -14,8 +17,8 @@
         <label for="email">Please give me your email.</label>
         <input type="email" name="email" id="email" placeholder="yourname@email.com" required="true"></input>
         <br>
-        <label for="number" id="number"> How old are you?</label>
-        <input type="number" name="number" id="number" placeholder="Please tell me how old you are" required="true"></input>
+        <label for="number" id="number"> How old are you? (Optional)</label>
+        <input type="number" name="number" id="number" placeholder="100" required="false"></input>
         <br>
         <!-- here i need a dropdown field, a multi-select radio field using name attributes, 
         checkboxes with values, and a textarea for user comments-->
@@ -29,18 +32,20 @@
             <option value="Blue-green!">Blue-green!</option>
             <option value="You don't talk to Mr. Bourke that way!">You don't talk to Mr. Bourke that way!</option>
         </select>
+        <br>
 
-        <p>Pick one or more.</p>
-        <input type="radio" multiple="true" id="radiooption"> 
-            <option value="Puppies">Puppies</option>
-            <option value="Rainbows">Rainbows</option>
-            <option value="Lollipops">Lollipops</option>
-        </input>
+        <label for="Puppies">Puppies</label>
+        <input type="radio" id="Puppies" value="Puppies">
+        <label for="Rainbows">Rainbows</label>
+        <input type="radio" id="Rainbows" value="Rainbows">
+        <label for="Lollipops">Lollipops</label>
+        <input type="radio" id="Lollipops" value="Lollipops">
 
-        <p> Check off some boxes, you hoe.</p>
+        <label for="checkbox" multiple="true"> Check off some boxes, you hoe.</label>
         <input type="checkbox" multiple="true" id="checkbox">
+        <br>
 
-        <p> Please tell me all of your hopes and dreams.</p>
+        <label for="textarea"> Please tell me all of your hopes and dreams.</label>
         <input type="textarea" maxlength="1000" id="textarea">
         
         <!-- below here we have a button in which the user will click and things will be 'submitted'-->
