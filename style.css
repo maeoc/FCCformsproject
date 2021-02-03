@@ -1,6 +1,6 @@
 html {
-font-family: Roboto sans-serif;
-height: 100%;
+font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+height: auto;
 }
 
 body {
@@ -10,11 +10,13 @@ background-size: contain;
 }
 
 #surveyinfo {
-    background-color: #FFF8E7;
-    font: center;
+    align-self: center;
+    /*background-color: #FFF8E7;*/
+    display: flex;
+    font: #9CFFCE;
     justify-self: center;
     padding: 100 500 500 500;
-    width: auto;
-    
+    text-align: center;
+    width: 1000px;
     
 }
