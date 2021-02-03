@@ -10,9 +10,11 @@ background-size: contain;
 }
 
 #surveyinfo {
-    background-color: teal;
+    background-color: #FFF8E7;
+    font: center;
     justify-self: center;
     padding: 100 500 500 500;
-    width: 300px;
+    width: auto;
+    
     
 }
