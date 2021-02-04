@@ -12,42 +12,58 @@
     <form id="survey-form">
         <!-- Name, email (validate email format, with error if wrong), 
         and age (should be validating is # and min max 0 to 125 with error if wrong) fields-->
-        <label for="name">Please tell me your name.</label>
+        <label for="name" id="name-label"> <b>Please tell me your name. </b> </label>
+        <br>
         <input type="text" id="name" name="name" placeholder="Your name here" required="true"></input>
         <br>
-        <label for="email">Please give me your email.</label>
+        <br>
+        <label for="email" id="email-label"> <b>Please give me your email.</b></label>
+        <br>
         <input type="email" name="email" id="email" placeholder="yourname@email.com" required="true"></input>
         <br>
-        <label for="number" id="number"> How old are you? (Optional)</label>
-        <input type="number" name="number" id="number" placeholder="100" required="false"></input>
+        <br>
+        <label for="number" id="number-label"> How old are you? (Optional)</label>
+        <input type="number" name="number" id="number" placeholder="100" min="1" max="100"></input>
+        <br>
         <br>
         <!-- here i need a dropdown field, a multi-select radio field using name attributes, 
         checkboxes with values, and a textarea for user comments-->
 
-        <label for="dropdown">Which is your favorite?</label>   
+        <label for="dropdown" id="favorite">Which is your favorite?</label>   
         <br>
-        <select multiple="false" name="dropdown" id="dropdown">
-            <option value="Dancing with the devil in the pale moonlight">Dancing with the devil in the pale moonlight</option>
-            <option value="I am Jack's complete lack of surprise">I am Jack's complete lack of surprise.</option>
+        <select name="dropdown" id="dropdown">
+            <option value="Dancing_with_the_devil_in_the_pale_moonlight">Dancing with the devil in the pale moonlight</option>
+            <option value="I_am_Jacks_complete_lack_of_surprise">I am Jack's complete lack of surprise.</option>
             <option value="Say hi to your Mom for me."> Say hi to your mom for me.</option>
             <option value="Blue-green!">Blue-green!</option>
             <option value="You don't talk to Mr. Bourke that way!">You don't talk to Mr. Bourke that way!</option>
         </select>
         <br>
-
-        <label for="Puppies">Puppies</label>
-        <input type="radio" id="Puppies" value="Puppies">
-        <label for="Rainbows">Rainbows</label>
-        <input type="radio" id="Rainbows" value="Rainbows">
-        <label for="Lollipops">Lollipops</label>
-        <input type="radio" id="Lollipops" value="Lollipops">
-
-        <label for="checkbox" multiple="true"> Check off some boxes, you hoe.</label>
-        <input type="checkbox" multiple="true" id="checkbox">
         <br>
 
-        <label for="textarea"> Please tell me all of your hopes and dreams.</label>
-        <input type="textarea" maxlength="1000" id="textarea">
+        <label for="which_one" id="which_one"> <b>Which one? </b></label>
+        <br>
+        <input type="radio" name="which_one" id="Puppies" value="Puppies"> Puppies </input>
+        <br>
+        <input type="radio" name="which_one" id="Rainbows" value="Rainbows"> Rainbows </input>
+        <br>
+        <input type="radio" name="which_one" id="Lollipops" value="Lollipops"> Lollipops </input>
+        <br>
+        <br>
+
+        <label for="checkbox" multiple="true"> <b> Check off some boxes, you hoe. </b> </label>
+        <br>
+        <input type="checkbox" name="checkbox" id="cheese" value="cheese"> Cheese </input>
+        <input type="checkbox" name="checkbox" id="cheese" value="cheese2"> Cheese </input>
+        <input type="checkbox" name="checkbox" id="cheese" value="cheese3"> Cheese </input>
+        <input type="checkbox" name="checkbox" id="cheese" value="cheese4"> Cheese </input>
+        <input type="checkbox" name="checkbox" id="cheese" value="cheese5"> Cheeeeeeese </input>
+        <br>
+        <br>
+
+        <label for="textarea"> <b>Please tell me all of your hopes and dreams. </b> </label>
+        <br>
+        <input type="textarea" name="textarea" maxlength="1000" id="textarea">
         
         <!-- below here we have a button in which the user will click and things will be 'submitted'-->
 
