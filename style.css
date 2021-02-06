@@ -1,20 +1,10 @@
 html {
-font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-height: auto;
-color: black;
+font-family: 'Rubik', Roboto, Oxygen;
 }
 
 body {
 background-color: #FFF8E7;
-/*background-image: url(lfbaphomet.jpg);*/
-background-size: contain;
-justify-content: center;
-justify-self: center;
+line-height: 2;
 text-align: center;
 }
 
-#surveyinfo {
-    align-self: center;
-    justify-self: center;
-    text-align: center;    
-}
