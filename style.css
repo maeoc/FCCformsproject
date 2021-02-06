@@ -1,84 +1,86 @@
 html {
-font-family: 'Rubik', Roboto, Oxygen;
+    font-family: 'Rubik', Roboto, Oxygen;
 }
 
 body {
-background-color: #FFF8E7;
-margin: auto;
-width: 500px;
+    background-color: #FFF8E7;
+    margin: auto;
+    width: 500px;
+}
+
+form {
+    background: rgba(64, 194, 118, 0.2);
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
 }
 
 #name {
-border-radius: 5px;
-border: none;
-font-size: 15px;
-height: 30px;
-padding-left: 5px;
-width: 215px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 5px;
+    width: 450px;
 }
 
 #name:focus {
-outline: none;
+    outline: none;
 }
 
 #email {
-border-radius: 5px;
-border: none;
-font-size: 15px;
-height: 30px;
-padding-left: 5px;
-width: 215px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 5px;
+    width: 450px;
 }
 
 #email:focus {
-outline: none;
+    outline: none;
 }
 
 #number {
-border-radius: 5px;
-border: none;
-font-size: 15px;
-height: 30px;
-padding-left: 5px;
-width: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 5px;
+    width: 450px;
 }
 
 #number:focus {
-outline:none;
+    outline:none;
 }
 
 #dropdown {
-background-color: white;
-border-radius: 5px;
-border: none;
-font-size: 15px;
-height: 30px;
-padding-left: 5px;
-width: 215px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 5px;
+    width: 450px;
 }
 
 #dropdown:focus {
-outline: none;
+    outline: none;
 }
 
 #textarea {
-border-radius: 5px;
-border: none;
-font-size: 15px;
-padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding-left: 5px;
 }
 
 #textarea:focus {
-outline: none;
+    outline: none;
 }
 
 #submit {
-justify-self: center;
-font-size: 15px;
-height: 30px;
-width: 150px;
-}
-
-#submit:hover {
-    transform: rotate(90);
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
 }
