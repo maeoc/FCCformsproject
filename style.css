@@ -15,11 +15,6 @@ text-align: center;
 
 #surveyinfo {
     align-self: center;
-    /*background-color: #FFF8E7;*/
-    font: #9CFFCE;
     justify-self: center;
-    padding: 100 500 500 500;
-    text-align: center;
-    width: 1000px;
-    
+    text-align: center;    
 }
