@@ -8,36 +8,35 @@
     <h1 id="title"> Ridiculous Survey</h1>
     </header>
 <body>
-    <p id="description"> This is a survey which has many questions.</p>
+    <p id="description"> This is a survey which has many questions. It's a demonstration of my lack of creativity when coming up with surveys.</p>
     <form id="survey-form">
         <!-- Name, email (validate email format, with error if wrong), 
         and age (should be validating is # and min max 0 to 125 with error if wrong) fields-->
-        <label for="name" id="name-label"> <b>Please tell me your name. </b> </label>
+        <label for="name" id="name-label"> <b> Name </b> </label>
         <br>
         <input type="text" id="name" name="name" placeholder="Your name here" required="true"></input>
         <br>
         <br>
-        <label for="email" id="email-label"> <b>Please give me your email.</b></label>
+        <label for="email" id="email-label"> <b>Email</b></label>
         <br>
         <input type="email" name="email" id="email" placeholder="yourname@email.com" required="true"></input>
         <br>
         <br>
-        <label for="number" id="number-label"> How old are you? (Optional)</label>
+        <label for="number" id="number-label"> <b>How old are you? (Optional)</b></label>
         <input type="number" name="number" id="number" placeholder="100" min="1" max="100"></input>
         <br>
         <br>
         <!-- here i need a dropdown field, a multi-select radio field using name attributes, 
         checkboxes with values, and a textarea for user comments-->
 
-        <label for="dropdown" id="favorite">Which is your favorite?</label>   
+        <label for="dropdown" id="favorite"> <b> is your favorite? </b> </label>   
         <br>
         <select name="dropdown" id="dropdown">
-            <option value="Dancing_with_the_devil_in_the_pale_moonlight">Dancing with the devil in the pale moonlight</option>
-            <option value="I_am_Jacks_complete_lack_of_surprise">I am Jack's complete lack of surprise.</option>
-            <option value="Say hi to your Mom for me."> Say hi to your mom for me.</option>
-            <option value="Blue-green!">Blue-green!</option>
-            <option value="You don't talk to Mr. Bourke that way!">You don't talk to Mr. Bourke that way!</option>
-        </select>
+            <option value="Hannah">Hannah</option>
+            <option value="Hanah">Hanah</option>
+            <option value="Hanna"> Hannah</option>
+            <option value="Hana">Hana</option>
+ l        </select>
         <br>
         <br>
 
@@ -63,7 +62,7 @@
 
         <label for="textarea"> <b>Please tell me all of your hopes and dreams. </b> </label>
         <br>
-        <textarea name="textarea" maxlength="1000" id="textarea" rows="5" cols="50"></textarea>
+        <textarea name="textarea" maxlength="1000" id="textarea" rows="4" cols="50"></textarea>
         <br>
         
         <!-- below here we have a button in which the user will click and things will be 'submitted'-->

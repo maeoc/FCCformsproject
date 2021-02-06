@@ -4,7 +4,81 @@ font-family: 'Rubik', Roboto, Oxygen;
 
 body {
 background-color: #FFF8E7;
-line-height: 2;
-text-align: center;
+margin: auto;
+width: 500px;
 }
 
+#name {
+border-radius: 5px;
+border: none;
+font-size: 15px;
+height: 30px;
+padding-left: 5px;
+width: 215px;
+}
+
+#name:focus {
+outline: none;
+}
+
+#email {
+border-radius: 5px;
+border: none;
+font-size: 15px;
+height: 30px;
+padding-left: 5px;
+width: 215px;
+}
+
+#email:focus {
+outline: none;
+}
+
+#number {
+border-radius: 5px;
+border: none;
+font-size: 15px;
+height: 30px;
+padding-left: 5px;
+width: 50px;
+}
+
+#number:focus {
+outline:none;
+}
+
+#dropdown {
+background-color: white;
+border-radius: 5px;
+border: none;
+font-size: 15px;
+height: 30px;
+padding-left: 5px;
+width: 215px;
+}
+
+#dropdown:focus {
+outline: none;
+}
+
+#textarea {
+border-radius: 5px;
+border: none;
+font-size: 15px;
+padding-left: 5px;
+}
+
+#textarea:focus {
+outline: none;
+}
+
+#submit {
+justify-self: center;
+font-size: 15px;
+height: 30px;
+width: 150px;
+}
+
+#submit:hover {
+    transform: rotate(90);
+}
